@@ -58,3 +58,12 @@ The site footer: brand info, social links, three link columns (Shop/Support/Comp
 ## How Components Work Together
 
 `App.tsx` composes all components into the final page layout:
+
+Data flows one-way, from top to bottom: `App.tsx` (and `data/products.ts`, `data/categories.ts`) own the source data, and pass it down as props to whichever component needs to display it. No component reaches "up" to modify its parent's data — this is React's standard one-way data flow, and matches the workshop's focus on **props**, not state management.
+
+## Running the Project
+
+```bash
+npm install
+npm run dev
+```
