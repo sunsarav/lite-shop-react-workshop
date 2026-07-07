@@ -11,7 +11,7 @@ export const products: Product[] = [
         stockText: 'In Stock • Ships in 2 days',
         price: 890,
         originalPrice: 1450,
-        ctaText: 'Add to cart',
+        buttonText: 'Add to cart',
     },
     {
         id: '2',
@@ -22,7 +22,7 @@ export const products: Product[] = [
         badge: { label: 'Limited', variant: 'limited' },
         stockText: 'Only 4 items left',
         price: 1200,
-        ctaText: 'Add to cart',
+        buttonText: 'Add to cart',
     },
     {
         id: '3',
@@ -30,10 +30,10 @@ export const products: Product[] = [
         category: 'Accessories',
         image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800',
         rating: 4.7,
-        badge: { label: 'Sold Out', variant: 'soldout' },
+        badge: { label: 'Sold Out', variant: 'soldOut' },
         stockText: 'Back in stock next week',
         price: 1850,
-        ctaText: 'Notify Me',
+        buttonText: 'Notify Me',
         disabled: true,
     },
     {
@@ -45,6 +45,6 @@ export const products: Product[] = [
         badge: { label: 'Popular', variant: 'popular' },
         stockText: 'In Stock • ships in 1 day',
         price: 550,
-        ctaText: 'Add to cart',
+        buttonText: 'Add to cart',
     },
 ];

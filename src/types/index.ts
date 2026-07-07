@@ -6,12 +6,12 @@ export type Product = {
     rating: number;
     badge?: {
         label: string;
-        variant: 'discount' | 'limited' | 'soldout' | 'popular' | 'hot' | 'new';
+        variant: 'discount' | 'limited' | 'soldOut' | 'popular' | 'hot' | 'new';
     };
     stockText: string;
     price: number;
     originalPrice?: number;
-    ctaText: string;
+    buttonText: string;
     disabled?: boolean;
 };
 
@@ -44,5 +44,5 @@ export type FooterProps = {
 
 export type PaginationProps = {
     currentPage: number;
-    totalpages: number;
+    totalPages: number;
 };
