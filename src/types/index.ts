@@ -17,6 +17,7 @@ export type Product = {
 
 export type ProductCardProps = {
     product: Product;
+    onAddToCart?: () => void;
 };
 
 export type ProductGridProps = {
