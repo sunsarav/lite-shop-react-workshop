@@ -19,11 +19,6 @@ export type ProductCardProps = {
     product: Product;
     onAddToCart?: () => void;
 };
-
-export type ProductGridProps = {
-    products: Product[];
-};
-
 export type ProductToolbarProps = {
     title: string;
 };
@@ -41,12 +36,6 @@ export type FilterSidebarProps = {
 export type HeaderProps ={
     cartCount: number;
 };
-
-export type FooterColumn = {
-    heading: string;
-    links: string[];
-};
-
 export type PaginationProps = {
     currentPage: number;
     totalPages: number;
