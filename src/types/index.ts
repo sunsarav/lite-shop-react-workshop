@@ -47,10 +47,6 @@ export type FooterColumn = {
     links: string[];
 };
 
-export type FooterProps = {
-    columns: FooterColumn[];
-};
-
 export type PaginationProps = {
     currentPage: number;
     totalPages: number;
