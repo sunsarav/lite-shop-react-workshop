@@ -38,6 +38,10 @@ export type FilterSidebarProps = {
     categories: CategoryItem[];
 };
 
+export type HeaderProps ={
+    cartCount: number;
+};
+
 export type FooterColumn = {
     heading: string;
     links: string[];

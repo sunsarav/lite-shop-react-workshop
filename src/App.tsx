@@ -1,13 +1,7 @@
-import ProductToolbar from './components/ProductToolbar';
-import Pagination from './components/Pagination';
+import Header from './components/Header';
 
 function App() {
-    return (
-        <div>
-            <ProductToolbar title="Recommended for you" />
-            <Pagination currentPage={1} totalPages={12} />
-        </div>
-    );
+    return <Header cartCount={2} />;
 }
 
 export default App;
