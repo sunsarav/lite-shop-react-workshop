@@ -24,6 +24,10 @@ export type ProductGridProps = {
     products: Product[];
 };
 
+export type ProductToolbarProps = {
+    title: string;
+};
+
 export type CategoryItem = {
     label: string;
     count: number;

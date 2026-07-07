@@ -1,8 +1,13 @@
-import FilterSidebar from './components/FilterSidebar';
-import { categories } from './data/categories'; // or wherever you put it
+import ProductToolbar from './components/ProductToolbar';
+import Pagination from './components/Pagination';
 
 function App() {
-    return <FilterSidebar categories={categories} />;
+    return (
+        <div>
+            <ProductToolbar title="Recommended for you" />
+            <Pagination currentPage={1} totalPages={12} />
+        </div>
+    );
 }
 
 export default App;
