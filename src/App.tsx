@@ -1,8 +1,8 @@
-import ProductCard from './components/ProductCard';
-import { products } from './data/products';
+import FilterSidebar from './components/FilterSidebar';
+import { categories } from './data/categories'; // or wherever you put it
 
 function App() {
-    return <ProductCard product={products[0]} />;
+    return <FilterSidebar categories={categories} />;
 }
 
 export default App;
