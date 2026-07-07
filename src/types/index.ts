@@ -19,6 +19,7 @@ export type ProductCardProps = {
     product: Product;
     onAddToCart?: () => void;
 };
+
 export type ProductToolbarProps = {
     title: string;
 };
@@ -36,6 +37,7 @@ export type FilterSidebarProps = {
 export type HeaderProps ={
     cartCount: number;
 };
+
 export type PaginationProps = {
     currentPage: number;
     totalPages: number;
